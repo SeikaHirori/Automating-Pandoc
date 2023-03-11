@@ -4,7 +4,7 @@ current_date=$(date +%b-%d-%y_%H_%M)
 # input_format="docx"
 # output_format="md"
 
-input_subdirectoy="_input"
+input_subdirectory="_input"
 
 converted_subdirectory="_converted"
 
@@ -79,7 +79,7 @@ run_conversion() {
         # find $input_subdirectoy -name \*.$input_format -type f -exec pandoc -f docx -t markdown $output_name {} > $final_subdirectory/{}.$output_format \;
         
         ### V3
-        find _input/ -name \*.docx -type f -exec pandoc -o {}.$output_format {} \;
+        find $input_subdirectory/ -name \*.docx -type f -exec pandoc -o {}.$output_format {} \;
 
 
     }
