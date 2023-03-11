@@ -31,8 +31,8 @@ run_conversion() {
 
     input_format=$1
     output_format=$2
-    output_name=$3
-    input_name=$4
+    # output_name=$3
+    # input_name=$4
 
     echo "Input format: $input_format"
     echo "Output format: $output_format"
@@ -76,7 +76,9 @@ run_conversion() {
         # find $input_subdirectoy -name \*.$input_format -type f -exec pandoc -o $final_subdirectory/{}.$output_format {} \;
 
         ### V2
-        find $input_subdirectoy -name \*.$input_format -type f -exec pandoc -f $input_name -t $output_name {} > $final_subdirectory/{}.$output_format \;
+        find $input_subdirectoy -name \*.$input_format -type f -exec pandoc -f docx -t markdown $output_name {} > $final_subdirectory/{}.$output_format \;
+
+
     }
 
     # Run commands here:
