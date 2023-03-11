@@ -76,7 +76,7 @@ run_conversion() {
         # find $input_subdirectoy -name \*.$input_format -type f -exec pandoc -o $final_subdirectory/{}.$output_format {} \;
 
         ### V2
-        find $input_subdirectoy -name \*.$input_format -type f -exec pandoc -f $input_name -t $output_name {} > {}.$output_format \;
+        find $input_subdirectoy -name \*.$input_format -type f -exec pandoc -f $input_name -t $output_name {} > $final_subdirectory/{}.$output_format \;
     }
 
     # Run commands here:
