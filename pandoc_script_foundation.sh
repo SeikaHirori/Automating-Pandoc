@@ -76,7 +76,10 @@ run_conversion() {
         # find $input_subdirectoy -name \*.$input_format -type f -exec pandoc -o $final_subdirectory/{}.$output_format {} \;
 
         ### V2
-        find $input_subdirectoy -name \*.$input_format -type f -exec pandoc -f docx -t markdown $output_name {} > $final_subdirectory/{}.$output_format \;
+        # find $input_subdirectoy -name \*.$input_format -type f -exec pandoc -f docx -t markdown $output_name {} > $final_subdirectory/{}.$output_format \;
+        
+        ### V3
+        find _input/ -name \*.docx -type f -exec pandoc -o {}.$output_format {} \;
 
 
     }
