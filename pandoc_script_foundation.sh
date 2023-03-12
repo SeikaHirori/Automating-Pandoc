@@ -81,7 +81,7 @@ run_conversion() {
         # find $input_subdirectory -name \*.$input_format -type f -exec pandoc -f docx -t markdown $output_name {} > $final_subdirectory/{}.$output_format \;
         
         ### V3
-        find $input_subdirectory/ -name \*.$input_format -type f -exec pandoc "{}" -o "{}.$output_format" \;
+        find $input_subdirectory -iname \*.$input_format -type f -exec pandoc "{}" -o "{}.$output_format" {} \;
 
 
     }
