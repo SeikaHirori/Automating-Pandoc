@@ -6,7 +6,7 @@ current_date=$(date +%b-%d-%y_%H_%M)
 
 input_subdirectory="_input"
 
-converted_subdirectory="_converted"
+converted_subdirectory="1_converted"
 
 finished_conversion="\nFinished converting. Enjoy your day :3 \n"
 
@@ -68,7 +68,7 @@ run_conversion() {
 
     mkdir_conversion() {
         echo -e "Converted files will be store in the folder: $final_subdirectory \n"
-        mkdir -p ./$input_subdirectory/$final_subdirectory
+        mkdir -p $final_subdirectory
     }
 
     convert_command() {
@@ -86,11 +86,16 @@ run_conversion() {
 
     }
 
+    move_new_files_to_subdirectory(){
+        find $input_subdirectory -iname \*.$output_format -type f -exec mv {} $final_subdirectory \;
+    }
+
     # Run commands here:
     mkdir_input
     is_dir_input_empty
     mkdir_conversion
     convert_command
+    move_new_files_to_subdirectory
 
     echo -e $finished_conversion
 }
