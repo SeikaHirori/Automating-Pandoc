@@ -100,7 +100,7 @@ run_conversion() {
             if [[ $extension_only == $input_format ]]; then
                 # echo -e "meep"
                 echo -e "now moving file $original_item"
-                mv $original_item $original_subdirectory
+                mv "$original_item" "$original_subdirectory"
             fi
         done
     }
