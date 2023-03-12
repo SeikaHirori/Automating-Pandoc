@@ -80,24 +80,18 @@ run_conversion() {
 
     convert_command() {
         echo -e "Running conversion \n"
-
-        ### V1
-        # find $input_subdirectory -name \*.$input_format -type f -exec pandoc -o $final_subdirectory/{}.$output_format {} \;
-
-        ### V2
-        # find $input_subdirectory -name \*.$input_format -type f -exec pandoc -f docx -t markdown $output_name {} > $final_subdirectory/{}.$output_format \;
-        
-        ### V3
-        find $input_subdirectory -iname \*.$input_format -type f -exec pandoc "{}" -o "{}.$output_format" {} \;
-
-
+        find $input_subdirectory -iname \*.$input_format -type f -exec pandoc "{}" -o "{}.$output_format" \;
     }
 
+    move_original_files_to_subdirectory() {
+        find $input_subdirectory -iname \*.$input_format -type f -exec mv {} $original_subdirectory \;
+    }
     # create_log(){
     #     touch -p $final_subdirectory
     # }
 
     move_new_files_to_subdirectory(){
+        echo -e "Moving new files into folder "$final_subdirectory" "
         find $input_subdirectory -iname \*.$output_format -type f -exec mv {} $final_subdirectory \;
     }
 
@@ -108,6 +102,7 @@ run_conversion() {
     mkdir_conversion
     mkdir_original_files
     convert_command
+    move_original_files_to_subdirectory
     move_new_files_to_subdirectory
 
     echo -e $finished_conversion
