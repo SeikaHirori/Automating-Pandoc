@@ -115,12 +115,13 @@ run_conversion() {
             echo ""
             echo "Current new_item: $new_item"
             
-            # file=$(basename -- "$new_item")
-            # extension_only="${file##*.}"
-            # echo $extension_only
+            file=$(basename -- "$new_item")
+            echo "basename: $file"
+            extension_only="${file##*.}"
+            echo $extension_only
 
 
-            if [[ $new_item == *.$output_format ]]; then
+            if [[ $extension_only == $output_format ]]; then
                 echo -e "item has the format: $output_format"
                 mv "$new_item" "$final_subdirectory"
             fi
