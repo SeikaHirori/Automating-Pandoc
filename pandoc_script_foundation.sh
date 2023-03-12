@@ -19,6 +19,28 @@ run_conversion() {
     input_format=$1
     output_format=$2
 
+    check_valid_arguements() {
+        is_arg_1_not_valid= [ -z "$input_format" ]
+        is_arg_2_not_valid= [ -z "$output_format" ]
+
+        echo $is_arg_1_not_valid
+        echo $is_arg_2_not_valid
+
+        if [ -z "$2" ]; then
+            echo "Second argument is missing"
+
+            if [ -z "$1" ]; then
+                echo "First argrument is also missing"
+            fi
+
+            echo ""
+            echo "Ending program"
+            exit 1
+    fi
+
+    }
+
+
     echo "Input format: $input_format"
     echo "Output format: $output_format"
     echo ""
@@ -36,9 +58,9 @@ run_conversion() {
         echo -e "checking if dir 'input' is empty... \n"
 
         if [ -d "$input_subdirectory/" ]; then
-            echo -e 'Folder exists! \n'
+            echo -e 'Folder exists!'
 
-            if [ "$(ls -A $input_subdirectory/)" ]; then
+            if [ "$(ls -A $input_subdirectory/*)" ]; then
                 echo "There are files in here :3"
             else
                 echo "Folder is empty; ending program."
@@ -84,10 +106,6 @@ run_conversion() {
         done
     }
 
-    # create_log(){
-    #     touch -p $final_subdirectory
-    # }
-
     move_new_files_to_subdirectory(){
         echo -e "Moving new files into folder "$final_subdirectory" "
         ### One line Version
@@ -96,11 +114,11 @@ run_conversion() {
         ### Writen Version
         for new_item in $input_subdirectory/*; do
             filename=$(basename -- "$new_item")
-            extension_only="${filename##*.}"
-            echo $extension_only
+            # extension_only="${filename##*.}"
+            # echo $extension_only
 
             if [[ $extension_only == $output_format ]]; then
-                echo -e "item has the format: $output_format"
+                # echo -e "item has the format: $output_format"
                 mv $new_item $final_subdirectory
             fi
         done
@@ -108,41 +126,20 @@ run_conversion() {
 
 
     # Run commands here:
+    check_valid_arguements $input_format $output_format
     mkdir_input
     is_dir_input_empty
     mkdir_conversion
     mkdir_original_files
     convert_command
-    move_original_files_to_subdirectory # Disable for now
+    move_original_files_to_subdirectory
     move_new_files_to_subdirectory
 
     echo -e $finished_conversion
 }
 
 main() {
-
-    input_format=$1
-    output_format=$2
-
-    is_arg_1_not_valid= [ -z "$input_format" ]
-    is_arg_2_not_valid= [ -z "$output_format" ]
-
-    echo $is_arg_1_not_valid
-    echo $is_arg_2_not_valid
-
-    if [ -z "$2" ]; then
-        echo "Second argument is missing"
-
-        if [ -z "$1" ]; then
-            echo "First argrument is also missing"
-        fi
-
-        echo ""
-        echo "Ending program"
-        exit 1
-    fi
-
-    run_conversion $input_format $output_format
+    run_conversion $1 $2
 }
 
 # run commands here
