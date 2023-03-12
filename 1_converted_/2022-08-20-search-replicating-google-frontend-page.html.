@@ -1,0 +1,93 @@
+<p>--- layout: post title: Search | Replicating Google Frontend Page
+date: '2022-08-20T20:04:00.002-07:00' author: WaToArt tags: - CS50w
+modified_time: '2022-08-20T20:30:31.667-07:00' blogger_id:
+tag:blogger.com,1999:blog-955763926904757318.post-8886601439561415556
+blogger_orig_url:
+https://watoart.blogspot.com/2022/08/search-replicating-google-frontend-page.html
+---</p>
+<p> <span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; font-weight: 700; vertical-align: baseline; white-space: pre-wrap;">Abstract</span><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">:
+Recreate the front-end for Google Search, Google Image Search, and
+Google Advanced Search. Examine the url links to see how Google handles
+searches.</span></p>
+<p><span
+id="docs-internal-guid-da9f2775-7fff-0e86-ade8-c73ffd959d74"><br />
+</span></p>
+<p><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">Prompt:
+</span><a href="https://cs50.harvard.edu/web/2020/projects/0/search/"
+style="text-decoration-line: none;"><span
+style="color: #1155cc; font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; text-decoration-line: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space: pre-wrap;">https://cs50.harvard.edu/web/2020/projects/0/search/</span></a></p>
+<p><br />
+</p>
+<p><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">For
+context to why I am going through CS50w (Web Development), check out
+this blog post! </span><span
+style="font-family: Arial; font-size: 11pt; font-style: italic; font-variant-east-asian: normal; font-variant-numeric: normal; font-weight: 700; vertical-align: baseline; white-space: pre-wrap;"><a
+href="%7B%7B%20site.baseurl%20%7D%7D%7B%%20post_url%202022-08-20-why-full-stack-now%20%%7D"
+target="_blank">Link here</a></span><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">.</span></p>
+<p><br />
+</p>
+<p><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">Now,
+reflecting on my first Front-end project from CS50w: whoa, Front-end
+(HTML and CSS) could be tackled from many different angles than I
+expected. For the back-end, it is the same case where the steps could
+vary BUT the inputs and outputs are the same. With the front-end, my
+observation so far is that you could use different tools to achieve
+similar results… BUT, you can now see how it is being visually
+presented. Plus, it seems like depending on the approach used, another
+section of code could influence a pre-existing section. Some approaches
+are good for one situation, but it might be bad when you need to scale
+out/ add extra code for a certain outcome. I did not realize that
+front-end could be this dynamic, and it intrigues me. </span></p>
+<p><br />
+</p>
+<p><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">For
+the project, attempting to emulate the three search pages was not too
+bad as there were not too many visual components.. The toughest visual
+part was searching the proper terms to achieve the desired visual
+output. For example, it was difficult figuring out how to align multiple
+elements/ components to the center of the web page. In this context, the
+Google logo, any subtext [i.e.: Images/ Advanced], search bar(s),
+“Search” action button, and “I’m Feeling Lucky” action
+button.</span></p>
+<p><br />
+</p>
+<p><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">From
+the… logic side (not sure the proper term), it was interesting to see
+how Google used “role” values in the form element to trigger their
+respective results [i.e. general search, images-only, and the various
+criterias for advance search]. For the first step of the examination/
+research phase, I tried to delete as much of the google results as
+possible until the desired output was no longer available. Afterwards, I
+tried to individually delete small sections of string within “/’ to see
+which parts were crucial. Lastly, I looked into how these strings were
+implemented within each “input” element.</span></p>
+<p><br />
+</p>
+<p><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">Overall,
+this project was a great introduction to front-end for me. My previous
+attempts with front-end were not successful, but the programming
+experience and knowledge I obtained when entering this project made this
+process more bearable. There are some minor things that could be
+adjusted and added, but the important thing is that I have the knowledge
+of WHAT I should look for when using Google and looking at various
+StackOverFlow and docs.</span></p>
+<p><br />
+</p>
+<p><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">I
+am excited to learn and apply the various things from this course for my
+personal project and future endeavor! </span></p>
+<div>
+<span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;"><br />
+</span>
+</div>

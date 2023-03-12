@@ -1,0 +1,116 @@
+<p>--- layout: post title: Why Full-Stack Now? date:
+'2022-08-20T20:29:00.000-07:00' author: WaToArt tags: - Journal
+modified_time: '2022-08-20T20:29:32.182-07:00' blogger_id:
+tag:blogger.com,1999:blog-955763926904757318.post-1805271738440626626
+blogger_orig_url:
+https://watoart.blogspot.com/2022/08/why-full-stack-now.html ---</p>
+<p> <span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; font-weight: 700; vertical-align: baseline; white-space: pre-wrap;">Abstract</span><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">:
+O yeah… PWAs exist… and what’s this? Full-stack elements fulfills my
+needs for personal projects? I am interested :3</span></p>
+<p><span
+id="docs-internal-guid-41c17bdb-7fff-ac5a-7757-039788d37d45"><br />
+<br />
+</span></p>
+<p><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">I
+did not expect to set my sights on Full-Stack Development at all. I
+thoroughly enjoyed coding back-end via Python and Java, but my previous
+attempts to get into web-related stuff put me off it. Before committing
+to learning the basics with the </span><a
+href="https://java-programming.mooc.fi/"
+style="text-decoration-line: none;"><span
+style="color: #1155cc; font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; text-decoration-line: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space: pre-wrap;">MOOC.fi’s
+Java course</span></a><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">,
+I tried out some web introduction courses via </span><a
+href="https://www.theodinproject.com/"
+style="text-decoration-line: none;"><span
+style="color: #1155cc; font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; text-decoration-line: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space: pre-wrap;">The
+Odin Project</span></a><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">
+and </span><a href="https://www.freecodecamp.org/"
+style="text-decoration-line: none;"><span
+style="color: #1155cc; font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; text-decoration-line: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space: pre-wrap;">Free
+Code Camp</span></a><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">.
+Unfortunately, both of these things were difficult to understand. It
+also did not help that I was not interested in the Front-end aspects at
+the time. Even before starting these web intro courses, a mate
+introduced me to Python long ago and the aspect of “lul you can make 2+2
+= 4” was so fascinating to me. As a result, the web intro courses did
+not fit my learning desires at the time. After completing the Java
+course, I attempted to get into web by using </span><a
+href="https://spring.io/projects/spring-framework"
+style="text-decoration-line: none;"><span
+style="color: #1155cc; font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; text-decoration-line: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space: pre-wrap;">Spring
+Boot (a Java Framework)</span></a><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">
+for an ill-prepared personal project. Unfortunately, I was very confused
+as I had no idea what was happening (despite reading the
+documentation).</span></p>
+<p><br />
+</p>
+<p><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">Fast
+forward to a few weeks ago. I wrote the backend with Python for my
+personal project (</span><a href="https://github.com/WaToArt/miru"
+style="text-decoration-line: none;"><span
+style="color: #1155cc; font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; text-decoration-line: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space: pre-wrap;">miru</span></a><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">).
+I had an issue: “... so how do I display information to the user?“. My
+initial thought was to develop STRICTLY for one platform. Next, I
+narrowed it down to mobile devices as it would be the most accessible
+device for myself. Finally, Android seemed to be the best option as I
+could test on an older device OR through a Virtual Machine (VM).
+HOWEVER, I quickly realized that the learning curve and period was too
+drastic for my liking on the available tools for Python.</span></p>
+<p><br />
+</p>
+<p><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">Then,
+two things hit me. First, I randomly had the thought of “o, it would be
+nice to have a personal site to display links to my projects on Github,
+blog posts, and so on…“ a while back. For a brief period, I lightly went
+through </span><a href="https://developer.mozilla.org/en-US/"
+style="text-decoration-line: none;"><span
+style="color: #1155cc; font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; text-decoration-line: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space: pre-wrap;">MDN’s
+web doc</span></a><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">
+before I shifted focus elsewhere. Second, it hit me again when I used a
+few Progressive Web Apps (PWA) on my phone and desktop: “... Oh yeah,
+PWA exists! :3”. This stemmed from a media site and </span><a
+href="https://devdocs.io/offline"
+style="text-decoration-line: none;"><span
+style="color: #1155cc; font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; text-decoration-line: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space: pre-wrap;">DevDocs.io</span></a><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">
+being PWAs. The latter especially reintroduced AND showed me that PWAs
+made progress to where it can download and contain offline data. When I
+tried PWAs on Android in 2018, it amazed me about its functionality… but
+I quickly forgot about it since the performance was sluggish compared to
+using the app’s native version. This led me to learning about web
+frameworks for Python, which was Django.</span></p>
+<p><br />
+</p>
+<p><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">Now,
+I tried to follow Django’s tutorial docs BUT I needed supplemental
+material. I realized that CS50w (Web Development) uses Django for the
+course. This was perfect as the course provided a great explanation of
+how web development works and the synergy between front-end and
+back-end.</span></p>
+<p><br />
+</p>
+<p><span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;">To
+conclude: Did I expect to dive in the world of Full-Stack? NOPEEE, but
+aspect seems like the best option for where I am at in my journey. I
+could try to focus on developing a platform-exclusive app, but I find
+that insufficient AND unaligned my vision of accessibility. Anyhow,
+let’s get it.</span></p>
+<div>
+<span
+style="font-family: Arial; font-size: 11pt; font-variant-east-asian: normal; font-variant-numeric: normal; vertical-align: baseline; white-space: pre-wrap;"><br />
+</span>
+</div>

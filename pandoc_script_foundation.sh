@@ -13,28 +13,11 @@ name_log="log_$current_date\.txt"
 finished_conversion="\nFinished converting. Enjoy your day :3 \n"
 
 run_conversion() {
-    # is_arg_1_not_valid= [ -z "$1" ]
-    # is_arg_2_not_valid= [ -z "$2" ]
 
-    # echo $is_arg_1_not_valid
-    # echo $is_arg_2_not_valid
-
-    # if $is_arg_2_not_valid; then
-    #     echo "Second argument is missing"
-
-    #     if $is_arg_1_not_valid; then
-    #         echo "First argrument is also missing"
-    #     fi
-    #     echo ""
-    #     echo "Ending program"
-    #     exit 1
-    # fi
 
 
     input_format=$1
     output_format=$2
-    # output_name=$3
-    # input_name=$4
 
     echo "Input format: $input_format"
     echo "Output format: $output_format"
@@ -136,3 +119,31 @@ run_conversion() {
     echo -e $finished_conversion
 }
 
+main() {
+
+    input_format=$1
+    output_format=$2
+
+    is_arg_1_not_valid= [ -z "$input_format" ]
+    is_arg_2_not_valid= [ -z "$output_format" ]
+
+    echo $is_arg_1_not_valid
+    echo $is_arg_2_not_valid
+
+    if [ -z "$2" ]; then
+        echo "Second argument is missing"
+
+        if [ -z "$1" ]; then
+            echo "First argrument is also missing"
+        fi
+
+        echo ""
+        echo "Ending program"
+        exit 1
+    fi
+
+    run_conversion $input_format $output_format
+}
+
+# run commands here
+main $1 $2

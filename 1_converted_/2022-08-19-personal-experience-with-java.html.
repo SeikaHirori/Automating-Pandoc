@@ -1,0 +1,416 @@
+<p>--- layout: post title: Personal Experience with Java Programming
+(MOOC.fi) date: '2022-08-19T12:05:00.001-07:00' author: WaToArt tags: -
+Imported modified_time: '2022-08-19T12:08:36.882-07:00' blogger_id:
+tag:blogger.com,1999:blog-955763926904757318.post-2778121672104366172
+blogger_orig_url:
+https://watoart.blogspot.com/2022/08/personal-experience-with-java.html
+---</p>
+<p> <span
+style="background-color: white; color: #292929; font-family: charter, Georgia, Cambria, &quot;Times New Roman&quot;, Times, serif; font-size: 18px; letter-spacing: -0.003em;">TL;DR:</span></p>
+<div class="l" style="box-sizing: inherit;">
+<div class="l" style="box-sizing: inherit;">
+<section style="box-sizing: inherit;">
+<div style="box-sizing: inherit;">
+<div class="ia ib ic id ie"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; overflow-wrap: break-word; word-break: break-word;">
+<p>The Java Programming (MOOC.fi) course is great for beginners who
+started their self-taught programming journey! There were some hiccups,
+but that did not deter my progress through the course. The experience
+was an incredible kick off to my self-taught programming journey.</p>
+</div>
+<div class="o dy kc kd hm ke" role="separator"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); display: flex; font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; justify-content: center; margin-bottom: 14px; margin-top: 32px; padding-bottom: 10px; padding-top: 24px;">
+<span class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; width: 3px;"></span>
+</div>
+<div class="ia ib ic id ie"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; overflow-wrap: break-word; word-break: break-word;">
+<p><span class="jg ii"
+style="box-sizing: inherit; font-weight: 700;">How did I
+find</span> MOOC.fi and its Java Programming course? It was free course
+commonly mentioned on r/LearnProgramming and r/LearnJava. I initially
+started with the <a href="https://programming-22.mooc.fi/" class="au kj"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">Python Programming MOOC 2022</a> course but I swapped
+over to the <a href="https://java-programming.mooc.fi/" class="au kj"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">Java Programming MOOC</a> course early on. The primary
+reason I swapped was because an apprenticeship opportunity required Java
+knowledge, and a friend suggested switching over from the Python Java
+for said opportunity.</p>
+</div>
+<div class="o dy kc kd hm ke" role="separator"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); display: flex; font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; justify-content: center; margin-bottom: 14px; margin-top: 32px; padding-bottom: 10px; padding-top: 24px;">
+<span class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; width: 3px;"></span>
+</div>
+<div class="ia ib ic id ie"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; overflow-wrap: break-word; word-break: break-word;">
+<p><span class="jg ii"
+style="box-sizing: inherit; font-weight: 700;">For my
+progression</span> through the course, it was not too bad! Trying to
+understand the basic foundations of programming was difficult… BUT once
+I understood how they functioned, I felt unstoppable at learning
+ANYTHING :3. The grade check was helpful to see which scenario I did not
+account for in my code! I utilized Google, Stack Overflow, and
+documentation to dig into information I need help understanding.
+However, I completed up until Part 14.2 as I did not need to utilize the
+whole toolset from JavaFX.</p>
+</div>
+<div class="o dy kc kd hm ke" role="separator"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); display: flex; font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; justify-content: center; margin-bottom: 14px; margin-top: 32px; padding-bottom: 10px; padding-top: 24px;">
+<span class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; width: 3px;"></span>
+</div>
+<div class="ia ib ic id ie"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; overflow-wrap: break-word; word-break: break-word;">
+<p><span class="jg ii"
+style="box-sizing: inherit; font-weight: 700;">Why do I like
+this </span>over other introduction courses? For me, I learn best by
+being hands-on first. Fortunately, this course synergies well with my
+learning style. I loved how it taught learners how to use the tools in
+the intro section, and then they explained how those tools work on a
+deeper level in the advanced section. For example, <a
+href="https://java-programming.mooc.fi/part-12" class="au kj"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">part 12</a> explains how type parameters, ArrayLists,
+and Hashmaps function on a deeper level. They introduced <a
+href="https://java-programming.mooc.fi/part-6/3-introduction-to-testing"
+class="au kj" rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">Unit Testing via JUnit</a> AND briefly mentioned TDD
+(Test-Driven Development). They also introduced platforms/ frameworks
+like JavaFX. As a result, you get to fiddle around with graphs, photos,
+audio, and build a game!</p>
+</div>
+<div class="o dy kc kd hm ke" role="separator"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); display: flex; font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; justify-content: center; margin-bottom: 14px; margin-top: 32px; padding-bottom: 10px; padding-top: 24px;">
+<span class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; width: 3px;"></span>
+</div>
+<div class="ia ib ic id ie"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; overflow-wrap: break-word; word-break: break-word;">
+<p><span class="jg ii"
+style="box-sizing: inherit; font-weight: 700;">There were small
+hiccups</span> along my journey through the course. Some
+Finnish-to-English translation was lost, so some wording and grammatical
+structure might not make sense. The lack of opportunities to practice
+unit testing outside the introduction in Part 6. This is likely the
+grade check function, as writing test code would conflict with the TMC
+plugin AND pre-made tests from the course. It was a struggle trying to
+implement JUnit as the grade check exists. It also made TDD impossible.
+You could set up a separate workspace to do this, but that would cost
+extra time to copy and paste code back and forth. The style-check could
+be better distinguished like how it’s done in <a
+href="https://cs50.readthedocs.io/style50/" class="au kj"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">CS50x’s style check</a>.</p>
+<p>The course doesn’t account for users on non-x86 devices (I’m assuming
+it was published before Apple Silicon devices were widely released). In
+order to find the instructions, you have to really go out of your way to
+find information on how to set up an IDE and Java packages. Here’s a
+link to setup VSCode that works for Apple Silicon devices on MacOS, <a
+href="https://www.mooc.fi/en/installation/vscode/" class="au kj"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">https://www.mooc.fi/en/installation/vscode/</a>.</p>
+</div>
+<div class="o dy kc kd hm ke" role="separator"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); display: flex; font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; justify-content: center; margin-bottom: 14px; margin-top: 32px; padding-bottom: 10px; padding-top: 24px;">
+<span class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; width: 3px;"></span>
+</div>
+<div class="ia ib ic id ie"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; overflow-wrap: break-word; word-break: break-word;">
+<p><span class="jg ii"
+style="box-sizing: inherit; font-weight: 700;">Would I recommend the
+Java course? </span>YES FOR BEGINNERS!… But that’s an elephant in the
+room from earlier: the <a href="https://programming-22.mooc.fi/"
+class="au kj" rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">Python Programming MOOC 2022</a> course.</p>
+<p>I progressed up until Part 3.2 before I swapped over to the <a
+href="https://java-programming.mooc.fi/" class="au kj"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">Java Programming MOOC</a> course. It looks like the
+Python course is the main introductory course for University of
+Helsinki’s Computer Science department now. It’s being updated yearly on
+MOOC.fi from my observation.</p>
+<p>If you want to IMMEDIATELY jump into learning programming, I
+recommend going with the Python version as the IDE setup is FAR simpler.
+This rings especially true if you are using MacOS with Apple Silicon.
+Setup was easier with Python than having to manually setup Java for
+VSCode. If you attempt to run the provided IDE (Netbeans or Eclipse)
+through Rosetta, the performance will be a hindrance. It will freeze
+after testing. It is possible to install the TMC (TestMyCode) plug-in
+extension separately with a newer build of either NetBeans or Eclipse,
+but it will require more time and research to set up. I found that
+VSCode was easier to set up on Apple Silicon (aside from setting up
+Maven). If you use Windows OR MacOS on an Intel-powered Apple device, I
+think using the course’s provided IDE setup should be less of a hassle
+for both Python and Java courses.</p>
+<p>If I were to start from scratch, I would still go with the Java
+course. Before switching to the Java course, I went up to Part 3 of the
+Python course. I STRUGGLED with the Python syntax since my eyes could
+not comprehend reading code with the large amount of whitespace. With
+the Java syntax, it gave me guidance to where a line/ body of code
+started and stopped. It also ingrained in me to be mindful of the syntax
+(i.e. “{ }”, “( )”). Thanks to the Java syntax giving the understanding
+of this, I do not struggle as much when reading Python’s syntax now.</p>
+<p>I’ll mention it here: When you complete about 80% of the introduction
+or advance section, you are <a
+href="https://www.mooc.fi/en/profile/completions" class="au kj"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">awarded a certificate</a> for the respective section!
+It’s a nice moral boost to make you go “AWWW YEAH I MADE PROGRESS AS A
+PROGRAMMER Y’ALL W00T W00T!”</p>
+</div>
+<div class="o dy kc kd hm ke" role="separator"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); display: flex; font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; justify-content: center; margin-bottom: 14px; margin-top: 32px; padding-bottom: 10px; padding-top: 24px;">
+<span class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; width: 3px;"></span>
+</div>
+<div class="ia ib ic id ie"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; overflow-wrap: break-word; word-break: break-word;">
+<p><span class="jg ii"
+style="box-sizing: inherit; font-weight: 700;">What is next for
+me?</span> I wanted to learn more about data structures and algorithms,
+and my friend suggested that it was a great step to tackle next. There
+were two free courses I found: <a
+href="https://algs4.cs.princeton.edu/home/" class="au kj"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">Algs4</a> and <a
+href="https://runestone.academy/ns/books/published/pythonds3/index.html"
+class="au kj" rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">Pythonds3</a>.</p>
+<p>If you want to stick with Java as the main programming language, <a
+href="https://algs4.cs.princeton.edu/home/" class="au kj"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">Algs4</a> is a great option. However, you will need to
+set up their library manually if you are on MacOS with Apple Silicon.
+Once you do, you will spend time learning how to use their nonstandard
+library. This feels like a traditional course… which makes sense since
+it is from Princeton University. They provide the textbook and online
+course for free! Video lectures accompany the lessons as well, which are
+found in the online course. The links are:</p>
+<ul>
+<li><span id="233c"><a href="https://algs4.cs.princeton.edu/home/"
+class="au kj" rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">Textbook</a></span></li>
+<li><span id="58c2"><a
+href="https://www.coursera.org/learn/algorithms-part1" class="au kj"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">Course | Part 1</a></span></li>
+<li><span id="05f9"><a
+href="https://www.coursera.org/learn/algorithms-part2" class="au kj"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">Course | Part 2</a></span></li>
+</ul>
+<p>If you do not mind switching over to Python, <a
+href="https://runestone.academy/ns/books/published/pythonds3/index.html"
+class="au kj" rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">Pythonds3</a> (from Runestone.academy) is another
+option. This is more reading (like Java/Python MOOCfi), but video is
+provided throughout the course! They do a great job explaining the
+Python syntax, so transitioning from Java (and possibly C, C#,
+JavaScript, etc) would be less of a struggle.</p>
+<p>I also wanted to learn about TDD as I think it suits my style of
+“here’s point A and point B; let’s set up the staircase to make it
+possible”. MOOCfi does provide a <a href="https://tdd.mooc.fi/"
+class="au kj" rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">TDD course</a>. However, the main language for its
+exercises is Javascript.</p>
+</div>
+<div class="o dy kc kd hm ke" role="separator"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); display: flex; font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; justify-content: center; margin-bottom: 14px; margin-top: 32px; padding-bottom: 10px; padding-top: 24px;">
+<span class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; width: 3px;"></span>
+</div>
+<div class="ia ib ic id ie"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; overflow-wrap: break-word; word-break: break-word;">
+<p><span class="jg ii"
+style="box-sizing: inherit; font-weight: 700;">What have I been
+doing</span> since I completed Java Programming MOOC?</p>
+<ul>
+<li><span id="83e2">I attempted to learn JavaScript on the fly for the
+TDD course, but this proved to be unsuccessful for me. For me to
+understand JavaScript, I think I would need to dedicate focused time to
+it. Instead, I implemented the general idea/concepts for TDD for all
+code I have been writing since…</span></li>
+<li><span id="9430">I have been building personal projects on the side!
+I created a list of project ideas that either would be fun, resolve my
+needs, or encourage me to learn and refine tool sets. For my current
+project, my objectives were to learn Python and implement TDD. I have
+more opportunities to practice the Python syntax since…</span></li>
+<li><span id="65cf">I am currently going through Pythonds3! It’s
+teaching Python in the first chapter, and it has not been as difficult a
+transition as I thought. I will provide my full thoughts after I finish
+the course. My impression as of finishing Chapter 1, it has been pretty
+great! I am excited to get into the meatier sections! Plus, the
+exercises have been handy in understanding the lessons!</span></li>
+<li><span id="d12f">Running alongside the course, I have been
+implementing TDD with PyTest. It was confusing at first, but I am
+getting the grasp of it ever so slowly. I am reading through the <a
+href="https://tdd.mooc.fi/" class="au kj" rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">TDD MOOC</a> as the materials are applicable on a
+general level.</span></li>
+<li><span id="54fe"><a href="https://docs.pytest.org/" class="au kj"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">PyTest</a>: THIS TOOL IS SO HANDY. That’s all I need to
+say.</span></li>
+<li><span id="dcdf">The documentation and resources for Python have been
+amazingly plentiful. Oddly, I find it easier for me to comprehend than I
+did with Java. Not sure why, but I’ll take it.</span></li>
+<li><span id="7754">I tried out Algs4 before Pythonds3, but I spent a
+lot of time fighting to set up the library in my IDE. The struggles of
+using MacOS with Apple Silicon :’(</span></li>
+</ul>
+</div>
+<div class="o dy kc kd hm ke" role="separator"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); display: flex; font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; justify-content: center; margin-bottom: 14px; margin-top: 32px; padding-bottom: 10px; padding-top: 24px;">
+<span class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; width: 3px;"></span>
+</div>
+<div class="ia ib ic id ie"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; overflow-wrap: break-word; word-break: break-word;">
+<p>I am still excited about this journey! I do hope that I will get to
+the point where I can gain industry experience soon! In the meantime, I
+will continue to learn all of these wonderful technologies.</p>
+</div>
+<div class="o dy kc kd hm ke" role="separator"
+style="box-sizing: inherit; color: rgba(0, 0, 0, 0.8); display: flex; font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; justify-content: center; margin-bottom: 14px; margin-top: 32px; padding-bottom: 10px; padding-top: 24px;">
+<span class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh ki"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; margin-right: 20px; width: 3px;"></span><span
+class="kf gd cj kg kh"
+style="background-color: #080808; border-radius: 50%; box-sizing: inherit; display: inline-block; height: 3px; width: 3px;"></span>
+</div>
+<div class="ia ib ic id ie"
+style="box-sizing: inherit; overflow-wrap: break-word; word-break: break-word;">
+<p><span class="jg ii"
+style="box-sizing: inherit; font-weight: 700;"><em>Courses mentioned
+(URLs):</em></span></p>
+<p><span class="jg ii"
+style="box-sizing: inherit; font-weight: 700;">Introduction
+courses:</span></p>
+<ul>
+<li><span id="4619">Java Programming (MOOC.fi) — <a
+href="https://java-programming.mooc.fi/" class="au kj"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">https://java-programming.mooc.fi/</a></span></li>
+<li><span id="c7b3">Python Programming (MOOC.fi) — <a
+href="https://programming-22.mooc.fi/" class="au kj"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">https://programming-22.mooc.fi/</a></span></li>
+</ul>
+<p><span class="jg ii"
+style="box-sizing: inherit; font-weight: 700;">Data structures and
+algorithms:</span></p>
+<ul>
+<li><span id="ec8c">Pythonds3 (Runestone.academy) — <a
+href="https://runestone.academy/ns/books/published/pythonds3/index.html"
+class="au kj" rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">https://runestone.academy/ns/books/published/pythonds3/index.html</a></span></li>
+<li><span id="3905">Algs4 ( Princeton University | Online textbook) — <a
+href="https://algs4.cs.princeton.edu/home/" class="au kj"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">https://algs4.cs.princeton.edu/home/</a></span></li>
+<li><span id="3dbe">Algs4 ( Princeton University |Course [Part 1 of 2])
+— <a href="https://www.coursera.org/learn/algorithms-part1"
+class="au kj" rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">https://www.coursera.org/learn/algorithms-part1</a></span></li>
+</ul>
+<p><span class="jg ii"
+style="box-sizing: inherit; font-weight: 700;">TDD (Test-Driven
+Development):</span></p>
+<ul>
+<li><span id="af68">TDD (MOOC.fi) — <a href="https://tdd.mooc.fi/"
+class="au kj" rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">https://tdd.mooc.fi/</a></span></li>
+</ul>
+<p><span class="jg ii"
+style="box-sizing: inherit; font-weight: 700;">MISC:</span></p>
+<ul>
+<li><span id="a936">CS50x, a free introductory course to CompSci
+(Harvard University) — <a href="https://cs50.harvard.edu/x/"
+class="au kj" rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">https://cs50.harvard.edu/x/</a></span></li>
+<li><span id="febb">PyTest (Testing tool) — <a
+href="https://docs.pytest.org/" class="au kj"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">https://docs.pytest.org/</a></span></li>
+</ul>
+<div>
+<span
+style="color: #292929; font-family: charter, Georgia, Cambria, Times New Roman, Times, serif;"><span
+style="font-size: 18px; letter-spacing: -0.054px;"><br />
+</span></span>
+</div>
+<div>
+# Original Posted Date on Medium: July 4, 2022
+</div>
+<ul>
+<li></li>
+</ul>
+</div>
+</div>
+</section>
+</div>
+</div>

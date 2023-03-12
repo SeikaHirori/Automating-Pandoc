@@ -1,0 +1,120 @@
+<p>--- layout: post title: 'Learning: The synergy between Pytest,
+Docker, and Jenkins' date: '2022-08-19T12:07:00.001-07:00' author:
+WaToArt tags: - Imported modified_time: '2022-08-19T12:07:06.142-07:00'
+blogger_id:
+tag:blogger.com,1999:blog-955763926904757318.post-4965074721271024684
+blogger_orig_url:
+https://watoart.blogspot.com/2022/08/learning-synergy-between-pytest-docker.html
+---</p>
+<p> </p>
+<div class="o dy"
+style="box-sizing: inherit; display: flex; justify-content: center;">
+<div class="en cf ez fa fb fc fd fe ff fg fh"
+style="box-sizing: inherit; margin: 0px 24px; min-width: 0px; width: 452px;">
+<div class="l" style="box-sizing: inherit;">
+<div class="l" style="box-sizing: inherit;">
+<section style="box-sizing: inherit;">
+<div style="box-sizing: inherit;">
+<div class="ia ib ic id ie"
+style="box-sizing: inherit; overflow-wrap: break-word; word-break: break-word;">
+<section id="68e6"
+class="pw-post-title if ig ih bn ii ij ik il im in io ip iq ir is it iu iv iw ix iy iz ja jb jc jd gi"
+data-selectable-paragraph="" style="box-sizing: inherit;">
+<h1
+class="pw-post-title if ig ih bn ii ij ik il im in io ip iq ir is it iu iv iw ix iy iz ja jb jc jd gi"
+data-selectable-paragraph=""
+style="box-sizing: inherit; color: #292929; font-family: sohne, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 32px; letter-spacing: -0.016em; line-height: 40px; margin: 0.64em 0px -0.27em;">Abstract<span
+style="font-weight: normal;">: Learned the utility of Docker and
+Jenkins, and how to combine them with pytest to automate testing for
+personal repos. Resources used/ mentioned are listed in the
+“documentation” folder in the repo. This is a shorter one, but it will
+improve my workflow.</span></h1>
+</section>
+<p>I saw Docker and Jenkins in passing, and these tech intrigued me in
+how they worked. The push was when I went to test my code from an old
+project on a separate PC, but it didn’t run. I wanted to REALLY make
+sure that all future code had a reduced chance of suffering the “but it
+worked on my computer uwu”.</p>
+<p>I tried to dive head on to see how Jenkins functioned first. The
+thought of automating tests was intriguing, but I was not how it worked.
+I found from a post that Jenkins could be used to automate pytest for a
+GitHub repo. That became my key end goal.</p>
+<p>I saw that Docker was used in that toolset, but the method they
+mentioned was VASTLY different compared to the instructions provided by
+the official Jenkins site. For a bit, I followed Jenkins’s instructions
+to set up the Docker instructions. The Jenkin’s guide was fine for what
+I needed to do, but I learned about how Docker worked from the <a
+href="https://devopswithdocker.com/" class="au kc"
+rel="noopener ugc nofollow"
+style="-webkit-tap-highlight-color: transparent; box-sizing: inherit;"
+target="_blank">MOOC.FI</a> as I wanted to understand what was
+happening. After learning Docker from the course, I resumed setting up
+Jenkins. I installed the majority of Jenkin’s instructions, but I forgot
+about the Docker DIND section.</p>
+<p>Following the Jenkin’s Docker page, I set up the Dockerfile for
+Jenkins. Afterwards, I followed the post to set up a Dockerfile for
+Python. Although optional, I set up Docker Compose to run Jenkins as it
+would remove the need to run some commands.</p>
+<p>Once I launched Jenkins and followed the setup instructions. This
+part was not too bad. Credentials wise, it took a while to figure out
+how it worked. Following a youtube video, I was able to set up Jenkins
+to a repo. I followed the blog to set up the automated testing. I
+struggled to understand what the code did, but eventually figured out
+that it was automating the commands (in Shell) I would use to set up
+Docker.</p>
+<p>A downside was that in order for tests to run after each update to
+GitHub, but a public link to Jenkins was needed. For my needs, this
+method was not feasible. The next best alternative was to run tests at
+designated times.</p>
+<p>To conclude, setting all of this stuff is pretty confusing AND there
+is room for error at various points. I think it was completely
+unnecessary to learn for my current stage of learning programming as
+well. However, these tools are powerful when implemented. Also, this
+exercise practice provides a great foundation/template for future
+reference to containerize and test projects with Docker. In the end, I
+am glad that I learned about Docker and Jenkins to be implemented with
+my current workflow. In the future, Jenkins will be deployed on a
+separate device to auto the tests.</p>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class="kd o"
+style="box-sizing: inherit; display: flex; padding: 16px 0px 0px;">
+
+</div>
+<div class="kd o"
+style="box-sizing: inherit; display: flex; padding: 16px 0px 0px;">
+# Original Posted Date on Medium: August 7, 2022
+</div>
+</div>
+</div>
+<div style="box-sizing: inherit;">
+
+</div>
+<div class="dc rt o dy te tq xh"
+style="bottom: 66px; box-sizing: inherit; display: flex; justify-content: center; opacity: 0; position: sticky; transition: opacity 300ms ease 0s;">
+<div class="tg ea qs th ti o ao c"
+style="align-items: center; background-color: white; border-radius: 20px; border: none; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px 0px; box-sizing: inherit; display: flex; height: 40px; padding: 0px 14px 0px 16px; transform: translateY(2px);">
+<div class="o ao gk"
+style="align-items: center; box-sizing: inherit; color: rgba(0, 0, 0, 0.8); display: flex; flex-direction: row; font-family: medium-content-sans-serif-font, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif;">
+<div class="pw-multi-vote-icon dp tn kq kr ks"
+style="box-sizing: inherit; margin-left: 0px; margin-right: 0px; position: relative; user-select: none;">
+<div style="box-sizing: inherit;">
+<div style="box-sizing: inherit;">
+<div class="cj" aria-describedby="141" aria-hidden="false"
+aria-labelledby="141"
+style="box-sizing: inherit; display: inline-block;">
+<div class="ds to df ku kv kw kx bb ky kz la ks"
+style="border: 0px; box-sizing: inherit; cursor: not-allowed; fill: rgb(117, 117, 117); opacity: 0.25; outline: 0px; padding: 0px; user-select: none;">
+<img
+src="data:image/svg+xml;base64,PHN2ZyBhcmlhLWxhYmVsPSJjbGFwIiBoZWlnaHQ9IjI0IiB2aWV3Ym94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCI+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTEuMzcuODNMMTIgMy4yOGwuNjMtMi40NWgtMS4yNnpNMTUuNDIgMS44NGwtMS4xOC0uMzktLjM0IDIuNSAxLjUyLTIuMXpNOS43NiAxLjQ1bC0xLjE5LjQgMS41MyAyLjEtLjM0LTIuNXpNMjAuMjUgMTEuODRsLTIuNS00LjRhMS40MiAxLjQyIDAgMCAwLS45My0uNjQuOTYuOTYgMCAwIDAtLjc1LjE4Yy0uMjUuMTktLjQuNDItLjQ1LjdsLjA1LjA1IDIuMzUgNC4xM2MxLjYyIDIuOTUgMS4xIDUuNzgtMS41MiA4LjRsLS40Ni40MWMxLS4xMyAxLjkzLS42IDIuNzgtMS40NSAyLjctMi43IDIuNTEtNS41OSAxLjQzLTcuMzh6TTEyLjA3IDkuMDFjLS4xMy0uNjkuMDgtMS4zLjU3LTEuNzdsLTIuMDYtMi4wN2ExLjEyIDEuMTIgMCAwIDAtMS41NiAwYy0uMTUuMTUtLjIyLjM0LS4yNy41M0wxMi4wNyA5eiIgZmlsbC1ydWxlPSJldmVub2RkIj48L3BhdGg+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTQuNzQgOC4zYTEuMTMgMS4xMyAwIDAgMC0uNzMtLjUuNjcuNjcgMCAwIDAtLjUzLjEzYy0uMTUuMTItLjU5LjQ2LS4yIDEuM2wxLjE4IDIuNWEuNDUuNDUgMCAwIDEtLjIzLjc2LjQ0LjQ0IDAgMCAxLS40OC0uMjVMNy42IDYuMTFhLjgyLjgyIDAgMSAwLTEuMTUgMS4xNWwzLjY0IDMuNjRhLjQ1LjQ1IDAgMSAxLS42My42M0w1LjgzIDcuOSA0LjggNi44NmEuODIuODIgMCAwIDAtMS4zMy45Yy4wNC4xLjEuMTguMTguMjZsMS4wMiAxLjAzIDMuNjUgMy42NGEuNDQuNDQgMCAwIDEtLjE1LjczLjQ0LjQ0IDAgMCAxLS40OC0uMUw0LjA1IDkuNjhhLjgyLjgyIDAgMCAwLTEuNC41Ny44MS44MSAwIDAgMCAuMjQuNThsMS41MyAxLjU0IDIuMyAyLjI4YS40NS40NSAwIDAgMS0uNjQuNjNMMy44IDEzYS44MS44MSAwIDAgMC0xLjM5LjU3YzAgLjIyLjA5LjQzLjI0LjU4bDQuNCA0LjRjMi44IDIuOCA1LjUgNC4xMiA4LjY4Ljk0IDIuMjctMi4yOCAyLjcxLTQuNiAxLjM0LTcuMWwtMi4zMi00LjA4eiIgZmlsbC1ydWxlPSJldmVub2RkIj48L3BhdGg+PC9zdmc+" />
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
