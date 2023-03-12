@@ -39,19 +39,21 @@ run_conversion() {
     echo ""
 
     final_subdirectory=$converted_subdirectory\_$output_format\_$current_date
+    final_subdirectory=$converted_subdirectory\_$output_format
+
 
     mkdir_input() {
         echo -e "If folder 'input' doesn't exist, it'll be made.\n"
-        mkdir -p $input_subdirectoy
+        mkdir -p $input_subdirectory
     }
 
     is_dir_input_empty(){
         echo -e "checking if dir 'input' is empty... \n"
 
-        if [ -d "$input_subdirectoy/" ]; then
+        if [ -d "$input_subdirectory/" ]; then
             echo -e 'Folder exists! \n'
 
-            if [ "$(ls -A $input_subdirectoy/)" ]; then
+            if [ "$(ls -A $input_subdirectory/)" ]; then
                 echo "There are files in here :3"
             else
                 echo "Folder is empty; ending program."
@@ -66,20 +68,20 @@ run_conversion() {
 
     mkdir_conversion() {
         echo -e "Converted files will be store in the folder: $final_subdirectory \n"
-        mkdir -p $final_subdirectory
+        mkdir -p ./$input_subdirectory/$final_subdirectory
     }
 
     convert_command() {
         echo -e "Running conversion \n"
 
         ### V1
-        # find $input_subdirectoy -name \*.$input_format -type f -exec pandoc -o $final_subdirectory/{}.$output_format {} \;
+        # find $input_subdirectory -name \*.$input_format -type f -exec pandoc -o $final_subdirectory/{}.$output_format {} \;
 
         ### V2
-        # find $input_subdirectoy -name \*.$input_format -type f -exec pandoc -f docx -t markdown $output_name {} > $final_subdirectory/{}.$output_format \;
+        # find $input_subdirectory -name \*.$input_format -type f -exec pandoc -f docx -t markdown $output_name {} > $final_subdirectory/{}.$output_format \;
         
         ### V3
-        find $input_subdirectory/ -name \*.$input_format -type f -exec pandoc -o {}.$output_format {} \;
+        find $input_subdirectory/ -name \*.$input_format -type f -exec pandoc "{}" -o "{}.$output_format" \;
 
 
     }
