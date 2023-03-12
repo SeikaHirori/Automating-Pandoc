@@ -44,7 +44,7 @@ run_conversion() {
     echo ""
 
     # final_subdirectory=$converted_subdirectory\_$output_format\_$current_date # no longer using date
-    final_subdirectory=$converted_subdirectory\_$input_format\_to_$output_format
+    final_subdirectory=$converted_subdirectory\_$input_format\_to_$output_format;
 
 
     mkdir_input() {
@@ -74,12 +74,12 @@ run_conversion() {
 
     mkdir_conversion() {
         echo -e "Converted files will be store in the folder: $final_subdirectory \n"
-        mkdir -p $final_subdirectory
+        mkdir -p "$final_subdirectory"
     }
 
     mkdir_original_files() {
         echo -e "Original files will be moved to folder '$original_subdirectory' after conversion IF the file was converted."
-        mkdir -p $original_subdirectory
+        mkdir -p "$original_subdirectory"
     }
 
     convert_command() {
