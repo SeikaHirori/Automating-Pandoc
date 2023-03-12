@@ -1,0 +1,2 @@
+- RFER #1 | Grabbing extension only
+    - https://stackoverflow.com/a/965072

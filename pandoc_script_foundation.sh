@@ -6,7 +6,7 @@ current_date=$(date +%b-%d-%y_%H_%M)
 
 input_subdirectory="_input"
 original_subdirectory="_original"
-converted_subdirectory="1_converted"
+converted_subdirectory="1_converted/"
 
 name_log="log_$current_date\.txt"
 
@@ -14,22 +14,20 @@ finished_conversion="\nFinished converting. Enjoy your day :3 \n"
 
 run_conversion() {
 
-
-
     input_format=$1
     output_format=$2
 
     check_valid_arguements() {
-        is_arg_1_not_valid= [ -z "$input_format" ]
-        is_arg_2_not_valid= [ -z "$output_format" ]
+        is_arg_1_not_valid= [ -z "$input_format" ];
+        is_arg_2_not_valid= [ -z "$output_format" ];
 
         echo $is_arg_1_not_valid
         echo $is_arg_2_not_valid
 
-        if [ -z "$2" ]; then
+        if [ $is_arg_2_not_valid ]; then
             echo "Second argument is missing"
 
-            if [ -z "$1" ]; then
+            if [ $is_arg_1_not_valid ]; then
                 echo "First argrument is also missing"
             fi
 
@@ -45,8 +43,8 @@ run_conversion() {
     echo "Output format: $output_format"
     echo ""
 
-    final_subdirectory=$converted_subdirectory\_$output_format\_$current_date
-    final_subdirectory=$converted_subdirectory\_$output_format
+    # final_subdirectory=$converted_subdirectory\_$output_format\_$current_date # no longer using date
+    final_subdirectory=$converted_subdirectory\_$input_format\_to_$output_format
 
 
     mkdir_input() {
@@ -63,6 +61,7 @@ run_conversion() {
             if [ "$(ls -A $input_subdirectory/*)" ]; then
                 echo "There are files in here :3"
             else
+                echo ""
                 echo "Folder is empty; ending program."
                 echo -e "Please add files into folder '_input' \n"
                 exit 1
@@ -124,9 +123,8 @@ run_conversion() {
         done
     }
 
-
     # Run commands here:
-    check_valid_arguements $input_format $output_format
+    check_valid_arguements
     mkdir_input
     is_dir_input_empty
     mkdir_conversion
