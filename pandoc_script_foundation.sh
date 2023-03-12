@@ -98,7 +98,7 @@ run_conversion() {
             echo $extension_only
 
             if [[ $extension_only == $input_format ]]; then
-                echo -e "meep"
+                # echo -e "meep"
                 echo -e "now moving file $original_item"
                 mv $original_item $original_subdirectory
             fi
@@ -112,13 +112,17 @@ run_conversion() {
 
         ### Writen Version
         for new_item in $input_subdirectory/*; do
-            filename=$(basename -- "$new_item")
-            # extension_only="${filename##*.}"
+            echo ""
+            echo "Current new_item: $new_item"
+            
+            # file=$(basename -- "$new_item")
+            # extension_only="${file##*.}"
             # echo $extension_only
 
-            if [[ $extension_only == $output_format ]]; then
-                # echo -e "item has the format: $output_format"
-                mv $new_item $final_subdirectory
+
+            if [[ $new_item == *.$output_format ]]; then
+                echo -e "item has the format: $output_format"
+                mv "$new_item" "$final_subdirectory"
             fi
         done
     }
@@ -130,8 +134,8 @@ run_conversion() {
     mkdir_conversion
     mkdir_original_files
     convert_command
-    move_original_files_to_subdirectory
     move_new_files_to_subdirectory
+    move_original_files_to_subdirectory
 
     echo -e $finished_conversion
 }
