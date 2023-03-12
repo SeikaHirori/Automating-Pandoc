@@ -84,26 +84,41 @@ run_conversion() {
     }
 
     move_original_files_to_subdirectory() {
-        find $input_subdirectory -iname \*.$input_format -type f -exec mv {} $original_subdirectory \;
+        # find $input_subdirectory -iname \*.$input_format -type f -exec mv {} $original_subdirectory \;
+
+        for original_item in $input_subdirectory/*; do
+            
+            # RFER #1
+            filename=$(basename -- "$original_item")
+            extension_only="${filename##*.}"
+            echo $extension_only
+
+            if [[ $extension_only == $input_format ]]; then
+                echo -e "meep"
+                echo -e "now moving file $original_item"
+                mv $original_item $original_subdirectory
+            fi
+        done
     }
+
     # create_log(){
     #     touch -p $final_subdirectory
     # }
 
     move_new_files_to_subdirectory(){
         echo -e "Moving new files into folder "$final_subdirectory" "
-
         ### One line Version
         # find $input_subdirectory -iname \*.$output_format -type f -exec mv {} $final_subdirectory \;
 
         ### Writen Version
-        for item in $input_subdirectory/*; do
-            echo "loops"
-            if [[ $item =~ $output_format ]]; then
+        for new_item in $input_subdirectory/*; do
+            filename=$(basename -- "$new_item")
+            extension_only="${filename##*.}"
+            echo $extension_only
+
+            if [[ $extension_only == $output_format ]]; then
                 echo -e "item has the format: $output_format"
-                mv $item $final_subdirectory
-            else
-                echo 'not there'
+                mv $new_item $final_subdirectory
             fi
         done
     }
@@ -115,7 +130,7 @@ run_conversion() {
     mkdir_conversion
     mkdir_original_files
     convert_command
-    # move_original_files_to_subdirectory # Disable for now
+    move_original_files_to_subdirectory # Disable for now
     move_new_files_to_subdirectory
 
     echo -e $finished_conversion
