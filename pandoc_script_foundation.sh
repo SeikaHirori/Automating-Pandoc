@@ -92,7 +92,20 @@ run_conversion() {
 
     move_new_files_to_subdirectory(){
         echo -e "Moving new files into folder "$final_subdirectory" "
-        find $input_subdirectory -iname \*.$output_format -type f -exec mv {} $final_subdirectory \;
+
+        ### One line Version
+        # find $input_subdirectory -iname \*.$output_format -type f -exec mv {} $final_subdirectory \;
+
+        ### Writen Version
+        for item in $input_subdirectory/*; do
+            echo "loops"
+            if [[ $item =~ $output_format ]]; then
+                echo -e "item has the format: $output_format"
+                mv $item $final_subdirectory
+            else
+                echo 'not there'
+            fi
+        done
     }
 
 
@@ -102,7 +115,7 @@ run_conversion() {
     mkdir_conversion
     mkdir_original_files
     convert_command
-    move_original_files_to_subdirectory
+    # move_original_files_to_subdirectory # Disable for now
     move_new_files_to_subdirectory
 
     echo -e $finished_conversion
