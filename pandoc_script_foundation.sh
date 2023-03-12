@@ -5,8 +5,10 @@ current_date=$(date +%b-%d-%y_%H_%M)
 # output_format="md"
 
 input_subdirectory="_input"
-
+original_subdirectory="_original"
 converted_subdirectory="1_converted"
+
+name_log="log_$current_date\.txt"
 
 finished_conversion="\nFinished converting. Enjoy your day :3 \n"
 
@@ -71,6 +73,11 @@ run_conversion() {
         mkdir -p $final_subdirectory
     }
 
+    mkdir_original_files() {
+        echo -e "Original files will be moved to folder '$original_subdirectory' after conversion IF the file was converted."
+        mkdir -p $original_subdirectory
+    }
+
     convert_command() {
         echo -e "Running conversion \n"
 
@@ -86,14 +93,20 @@ run_conversion() {
 
     }
 
+    # create_log(){
+    #     touch -p $final_subdirectory
+    # }
+
     move_new_files_to_subdirectory(){
         find $input_subdirectory -iname \*.$output_format -type f -exec mv {} $final_subdirectory \;
     }
+
 
     # Run commands here:
     mkdir_input
     is_dir_input_empty
     mkdir_conversion
+    mkdir_original_files
     convert_command
     move_new_files_to_subdirectory
 

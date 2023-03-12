@@ -1,4 +1,7 @@
 _conversion_Markdown/*
+_input/*
+output/*
+
 *.md
 *.docx
 *.doc
